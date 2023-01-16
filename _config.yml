@@ -3,7 +3,7 @@ subtitle: Analyzing data in every dimension!
 description: >- # this means to ignore newlines until "baseurl:"
   DataVolume.xyz is a data analytics platform that provides a wide range of data analytics services to help you make better decisions.
 
-url: "https://jamesdbartlett3.github.io/devlopr-jekyll" # the base hostname & protocol for your site, e.g. https://example.github.io
+url: "https://jamesdbartlett3.github.io" # the base hostname & protocol for your site, e.g. https://example.github.io
 baseurl: "/devlopr-jekyll" # the subpath of your site, e.g. /blog
 
 # Navigation
