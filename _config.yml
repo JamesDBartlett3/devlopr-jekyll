@@ -1,7 +1,7 @@
 title: DataVolume.xyz
 subtitle: Analyzing data in every dimension!
 description: >- # this means to ignore newlines until "baseurl:"
-  DataVolume.xyz is a data analytics platform that provides a wide range of data analytics services to help you make better decisions.
+  DataVolume.xyz combines industry-leading Business Intelligence and Data Analytics tools with the power of automation to help you make better decisions, faster.
 
 url: "https://jamesdbartlett3.github.io" # the base hostname & protocol for your site, e.g. https://example.github.io
 baseurl: "/devlopr-jekyll" # the subpath of your site, e.g. /blog
@@ -30,7 +30,7 @@ author_bio: Hi, my name is James Bartlett. I built this site using devlopr-jekyl
 author_email: ""
 author_location: USA
 author_website_url: "https://datavolume.xyz"
-typewrite-text: "DataVolume.xyz is a data analytics platform that provides a wide range of data analytics services to help you make better decisions."
+typewrite-text: ""
 hero_cover_img: sample_cover.jpg # replace this for changing homepage cover (eg. try cover.jpeg). Image should be in /assets/img
 
 # Experiences
