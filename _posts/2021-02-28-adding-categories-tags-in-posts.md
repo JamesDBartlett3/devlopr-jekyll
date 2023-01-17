@@ -6,10 +6,10 @@ author: xplor4r
 date: '2021-02-28 1:35:23 +0530'
 category: ['jekyll','guides', 'sample_category']
 tags: jekyll
-thumbnail: /assets/img/posts/code.jpg
+thumbnail: code.jpg
 keywords: devlopr jekyll, how to use devlopr, devlopr, how to use devlopr-jekyll, devlopr-jekyll tutorial,best jekyll themes, multi categories and tags
 usemathjax: false
-permalink: /blog/adding-categories-tags-in-posts/
+permalink: adding-categories-tags-in-posts
 ---
 
 ## Adding Multiple Categories in Posts
