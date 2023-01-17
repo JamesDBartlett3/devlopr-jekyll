@@ -8,7 +8,7 @@ category: jekyll
 thumbnail: code.jpg
 keywords: devlopr jekyll, how to use devlopr, devlopr, how to use devlopr-jekyll, devlopr-jekyll tutorial,best jekyll themes, multi author
 usemathjax: true
-permalink: added-multi-author-support
+permalink: /blog/added-multi-author-support
 ---
 
 ## Now Multiple Authors Can Create Articles:

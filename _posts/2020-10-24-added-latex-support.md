@@ -8,7 +8,7 @@ category: jekyll
 thumbnail: code.jpg
 keywords: devlopr jekyll, how to use devlopr, devlopr, how to use devlopr-jekyll, devlopr-jekyll tutorial,best jekyll themes
 usemathjax: true
-permalink: added-latex-equations-support
+permalink: /blog/added-latex-equations-support
 ---
 
 ## You can now use LaTex to write equations :
