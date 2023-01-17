@@ -37,13 +37,13 @@ layout: default
           <li class="pagination-link disabled"><span aria-hidden="true">&laquo;</span></li>
           {% endif %}
 
-          <li class="pagination-link"><a href="/blog">First</a></li>
+          <li class="pagination-link"><a href="{{site.url}}{{site.baseurl}}/blog">First</a></li>
 
           {% for page in (1..paginator.total_pages) %}
           {% if page == paginator.page %}
-          <li class="active pagination-link"><a>{{ page }}<span class="sr-only">(current)</span></a></li>
+          <li class="disabled pagination-link"><span><b>{{ page }}</b></span></li>
           {% elsif page == 1 %}
-          <li class="pagination-link"><a href="/blog">{{ page }}</a></li>
+          <li class="pagination-link"><a href="{{site.url}}{{site.baseurl}}/blog">{{ page }}</a></li>
           {% else %}
           <li class="pagination-link"><a
               href="{{ site.paginate_path | prepend: site.baseurl | replace: '//', '/' | replace: ':num', page }}">{{
@@ -51,7 +51,7 @@ layout: default
           {% endif %}
           {% endfor %}
 
-          <li class="pagination-link"><a href="/blog/page/{{ paginator.total_pages }}/#/">Last</a></li>
+          <li class="pagination-link"><a href="{{site.url}}{{site.baseurl}}/blog/page/{{ paginator.total_pages }}/#/">Last</a></li>
 
           {% if paginator.next_page %}
           <li class="pagination-link"><a
