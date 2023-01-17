@@ -9,7 +9,7 @@ social:
     - title: "github"
       url: "https://github.com/JamesDBartlett3"
     - title: "linkedin"
-      url: "https://www.linkedin.com/in/JamesDBartlett3"
+      url: "https://linkedin.com/in/JamesDBartlett3"
     - title: "mastodon"
       url: "https://techhub.social/@JamesDBartlett3"
     - title: "instagram"
