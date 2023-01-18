@@ -27,10 +27,10 @@ urls:
 author_logo: profile.jpg
 author: James Bartlett
 author_bio: Hi, my name is James Bartlett. I built this site using devlopr-jekyll.
-author_email: ""
+author_email: 
 author_location: USA
-author_website_url: "https://datavolume.xyz"
-typewrite-text: ""
+author_website_url: https://datavolume.xyz
+typewrite-text: 
 hero_cover_img: sample_cover.jpg # replace this for changing homepage cover (eg. try cover.jpeg). Image should be in /assets/img
 
 # Experiences
