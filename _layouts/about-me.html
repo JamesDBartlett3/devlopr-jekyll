@@ -28,28 +28,28 @@ layout: default
         >
           <i class="fab fa-facebook-f"></i>
         </a>
-        {% endif %} {% if site.instagram_username %}
-        <a
-          class="social-link"
-          href="https://instagram.com/{{ site.instagram_username }}"
-        >
-          <i class="fab fa-instagram"></i>
-        </a>
-        {% endif %} {% if site.medium_username %}
+        {% endif %}  
+        {% if site.medium_username %}
         <a
           class="social-link"
           href="https://medium.com/@{{ site.medium_username }}"
         >
           <i class="fab fa-medium-m"></i>
         </a>
-        {% endif %} {% if site.github_username %}
+        {% endif %} 
+        
+        {% comment %}
+        {% if site.github_username %}
         <a
           class="social-link"
           href="https://github.com/{{ site.github_username }}"
         >
           <i class="fab fa-github"></i>
         </a>
-        {% endif %} {% if site.behance_username %}
+        {% endif %} 
+        {% endcomment %}
+
+        {% if site.behance_username %}
         <a
           class="social-link"
           href="https://behance.net/{{ site.behance_username }}"
@@ -89,6 +89,22 @@ layout: default
           <i class="bi bi-mastodon"></i>
         </a>
         {% endif %}
+        {% if site.tiktok_username %}
+        <a
+          class="social-link"
+          href="https://tiktok.com/@{{ site.tiktok_username }}"
+        >
+          <i class="bi bi-tiktok"></i>
+        </a>
+        {% endif %}
+        {% if site.instagram_username %}
+        <a
+          class="social-link"
+          href="https://instagram.com/{{ site.instagram_username }}"
+        >
+          <i class="fab fa-instagram"></i>
+        </a>
+        {% endif %}
       </p>
 
       {% if site.author_location %}
@@ -115,17 +131,16 @@ layout: default
     {% endif %}
   </div>
   <div class="col-lg-8">
-    {% if site.author_bio %}
+    {% if site.author_bio and site.author_bio_on_about_page %}
     <div class="card">
       <h1 class="card-title">About</h1>
       <p>{{ site.author_bio }}</p>
     </div>
-    {% endif %} {% if site.show_author_project_details == true %}
+    {% endif %} {% if site.show_author_project_details %}
     <div id="author_projects" class="card">
       <h1 class="card-title">Projects</h1>
       <br />
-      {% for project in site.author_project_details %} {% if project.visibility
-      == true %}
+      {% for project in site.author_project_details %} {% if project.visibility %}
       <div class="row" id="project-card">
         <div class="col-md-6">
           <img
