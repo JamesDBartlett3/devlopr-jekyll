@@ -12,7 +12,11 @@
                       {% endif %}
                 </div>
                 <div class="col-md-6">
-                        <p class="author_bio">{{author.bio}}</p>
+                        {% if author.username == site.author_username %}
+                            <p class="author_bio">{{site.author_bio}}</p>
+                        {% else %}
+                            <p class="author_bio">{{author.bio}}</p>
+                        {% endif %}
                         <p>Email: {{author.email}}</p>
                         <p>Website: {{author.site}}</p>
                         <p class="profile-links">

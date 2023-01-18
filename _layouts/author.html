@@ -5,7 +5,11 @@ layout: default
   <div class="col-md-8 offset-md-2 offset-md-right">
     <h1>Author: {{ page.name }}</h1>
     <img src="{{site.url}}{{site.baseurl}}/assets/img/authors/{{ page.avatar}}" class="author-profile-img" />
-    <p>{{ page.bio }}</p>
+    {% if page.username == site.author_username %}
+        <p class="author_bio">{{site.author_bio}}</p>
+    {% else %}
+        <p class="author_bio">{{page.bio}}</p>
+    {% endif %}
     {%- assign author_social = page.social -%}
     <p class="profile-links">
       {%- for network in author_social -%}

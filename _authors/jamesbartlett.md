@@ -12,6 +12,8 @@ social:
       url: "https://linkedin.com/in/JamesDBartlett3"
     - title: "mastodon"
       url: "https://techhub.social/@JamesDBartlett3"
+    - title: "tiktok"
+      url: "https://tiktok.com/@JamesDBartlett3"
     - title: "instagram"
       url: "https://instagram.com/JamesDBartlett3"
 ---
